@@ -7,9 +7,6 @@ export const badWordList = [
     'ass', 'asscheek', 'asses', 'asscheeks',
     'damn', 'dammit', 'goddamn', 'goddammit', 'damnit', 'goddamnit',
     'vag', 'vags', 'clit', 'clits', 'pussy', 'pussies', 'cock', 'dick', 'cocks', 'dicks',
-    //slurs
-    'nigger', 'nigga', 'niggers', 'niggas', 'niger', 'niga', 'nigs', 'nga',
-    'fag', 'faggot', 'fags', 'faggots',
     'bastard', 'bastards',
     'slut', 'sluts', 'whore', 'whores', 'shank', 'tranny', 'tran',
     'motherfucker', 'motherfuckers', 'mf', 'mfs',
