@@ -23,8 +23,9 @@ const messageAnalysis = (msg) => __awaiter(void 0, void 0, void 0, function* () 
             const { edit, get } = require('../../functions/JsonOps');
             var amount = get('db/swearJar.json', 'amount');
             edit('db/swearJar.json', 'amount', ++amount);
-            msg.reply(`+$1 to the swear jar -> 🫙 $${amount}`);
-            msg.react('💵');
+            msg.react('➖');
+            msg.react('💲');
+            msg.react('1️⃣');
         })
             .catch(err => { });
     }
